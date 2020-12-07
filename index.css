@@ -246,7 +246,7 @@ transition-duration:0.5s;
         overflow:auto;
 
         display:grid;
-        gap:10%;
+        gap:25%;
         font-family: 'Amiri', serif;
     }
     .my-landing::-webkit-scrollbar{
@@ -592,7 +592,6 @@ transition-duration:0.5s;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         align-items:start;
-        margin: 0% 0% calc( -1 * (var(--main-gap)));
         align-items: end;
         background: #d5d8db;
         padding:2% 5% 1.5%;
@@ -617,7 +616,7 @@ transition-duration:0.5s;
                     justify-items: center;
                 }
                         .foot-icon{
-                            width: calc(20px + 3vmin);
+                            width: calc(60px + 0.5vmin);
                             max-width:100%;
                             height:auto;
                             border-radius: 50%;
